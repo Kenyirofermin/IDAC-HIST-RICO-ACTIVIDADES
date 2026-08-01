@@ -1,0 +1,8 @@
+{
+  "name": "Archivo Fotográfico de Actividades",
+  "description": "Una aplicación elegante para archivar fotográficamente tus actividades, organizadas por año, mes, días y con notas descriptivas detalladas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
