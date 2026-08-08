@@ -514,11 +514,20 @@ export default function ActivityForm({
         </div>
 
         {/* Botones del Formulario */}
-        <div className="flex items-center gap-3 mt-3 border-t border-slate-200 pt-4">
+        <div className="flex items-center gap-3 mt-3 border-t border-slate-200 pt-4 flex-wrap">
           <button
             type="button"
             onClick={onCancel}
-            className="flex-1 py-2.5 rounded-xl border border-slate-200 bg-white text-slate-700 hover:bg-slate-50 text-xs font-black uppercase tracking-widest transition-all cursor-pointer shadow-sm hover:shadow-md"
+            className="px-4 py-2.5 rounded-xl border border-slate-300 bg-white text-slate-700 hover:bg-slate-100 text-xs font-black uppercase tracking-widest transition-all cursor-pointer shadow-xs flex items-center justify-center gap-1.5 active:scale-95"
+            title="Regresar a la vista principal"
+          >
+            <Home className="w-4 h-4 text-idac-blue" />
+            <span>🏠 Volver al Inicio</span>
+          </button>
+          <button
+            type="button"
+            onClick={onCancel}
+            className="flex-1 py-2.5 rounded-xl border border-slate-200 bg-slate-50 text-slate-700 hover:bg-slate-100 text-xs font-black uppercase tracking-widest transition-all cursor-pointer shadow-xs"
           >
             Cancelar
           </button>
